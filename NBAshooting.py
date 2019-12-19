@@ -2,7 +2,10 @@ import pandas
 import math
 
 #data is from the NBA Teams Shot Dashboard, for the 2018-2019 season
-path = '/Users/jacobdunning/Desktop/NBAstats.xlsx'
+#https://stats.nba.com/teams/shots-general/?sort=TEAM_NAME&dir=1&Season=2018-19&SeasonType=Regular%20Season
+
+
+path = #include string here linking to location of data
 nba_stats = pandas.read_excel(path)
 name = input("Enter a team name, including where the team is from (i.e. 'Utah Jazz'): ")
 index = 0
