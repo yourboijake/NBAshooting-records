@@ -1,1 +1,4 @@
 # NBAshooting-records
+This program uses team shooting data from the 2018-2019 season to analyze whether teams are taking the appropriate number of two and three point shots. Conceptually, a team that is shooting the appropriate number of two's and three's over the season should have shooting data that has the following property: the ratio of two's to three's should match the ratio of the expected point value of two's to the expected point value of three's. The expected point value of two's is two times the probability that the shot will be successful, and the expected point value of three's is three time the probability that the shot will be successful.
+
+The program allows for users to ask about a particular NBA team, and reports results for the entire league in the 2018-2019 season. The results indicate that all the teams in the league are under-shooting three's, which has potential implications for coaching, practicing, and in-game player strategy.
